@@ -1,0 +1,3 @@
+[submodule "evil"]
+	path = evil
+	url = /proc/self/cwd/evil2/git
