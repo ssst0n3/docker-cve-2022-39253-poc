@@ -1,0 +1,8 @@
+FROM busybox
+
+COPY / /
+# RUN ls -lah /
+# RUN ls -lah /.git/
+# RUN ls -lah /.git/modules
+RUN ls -lah /.git/modules/evil/objects/host
+RUN cat /.git/modules/evil/objects/host
